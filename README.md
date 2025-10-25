@@ -1,6 +1,5 @@
 # DSBSC
-
-
+## Priyanka B (212224060197)
 EX NO: 2	DSB-SC-AM MODULATOR AND DEMODULATOR
 
 AIM:
@@ -47,9 +46,34 @@ Model Waveform
 
 <img width="703" height="679" alt="image" src="https://github.com/user-attachments/assets/e7c7c7f8-ccf2-41ac-b1f3-325989941a6f" />
 
-Program
+Program:
+~~~
+Am=8.8;
+fm=440;
+Ac=17.6;
+fc=4400;
+fs=44000;
+t=0:1/fs:2/fm;
+m=Am*cos(2*3.14*fm*t);
+subplot(3,1,1);
+plot(t,m);
+c=Ac*cos(2*3.14*fc*t);
+subplot(3,1,2);
+plot(t,c);
+s1=(Ac+m).*cos(2*3.14*fc*t);
+s2=(Ac-m).*cos(2*3.14*fc*t);
+s=(s1-s2);
+subplot(3,1,3);
+plot(t,s);
+~~~
 
-Output Graph
+Output:
+<img width="1920" height="1200" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/a3936713-15ae-4fb4-bb8e-b91ab1187a3a" />
+
+(Output waveform)
+<img width="1200" height="1200" alt="DSB" src="https://github.com/user-attachments/assets/7eaac284-0dd9-4a5d-bd2d-210cf8271fb8" />
+
+
 
 
 Tablular Column
