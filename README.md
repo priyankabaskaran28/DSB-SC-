@@ -76,7 +76,11 @@ Output:
 
 
 
-Tablular Column
+Tablular Column:
+<img width="1018" height="1280" alt="image" src="https://github.com/user-attachments/assets/5ec20784-671d-427f-9578-25a41b70940d" />
+<img width="1280" height="627" alt="image" src="https://github.com/user-attachments/assets/af6856f6-1fa9-4f10-86e5-b580b8f165f8" />
+
+
 
 
 Result
